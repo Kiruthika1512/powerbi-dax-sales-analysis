@@ -1,17 +1,32 @@
-# Power BI Sales Analysis Dashboard — DAX Practice Project
+# Power BI Sales Analysis Dashboard
 
 ## Project Overview
 
-This project focuses on analysing sales data using Microsoft Power BI. I created an interactive sales dashboard using a dataset containing 5,000 rows and 7 columns.
+An interactive sales analysis dashboard built using Microsoft Power BI to explore sales performance across product categories, regions, time periods, and sales channels.
 
-The objective was to practise DAX calculations, analyse sales performance, and build interactive visualisations to understand revenue trends across product categories, regions, and sales channels.
+This project uses a dataset containing 5,000 rows and demonstrates practical applications of DAX measures, data visualisation, and interactive reporting.
+
+## Dashboard Preview
+
+![Power BI Sales Analysis Dashboard](Dashboard_Screenshot.png)
+
+## Business Objectives
+
+* Analyse revenue across product categories.
+* Explore monthly revenue trends.
+* Compare sales performance across regions.
+* Understand revenue contributions from different sales channels.
+* Enable interactive analysis using Year and Region slicers.
+
+## Tools & Technologies
+
+* Microsoft Power BI Desktop
+* DAX (Data Analysis Expressions)
+* Microsoft Excel
 
 ## Dataset
 
-* **Rows:** 5,000
-* **Columns:** 7
-
-### Columns
+The dataset contains 5,000 sales records with seven columns:
 
 * Order_ID
 * Order_Date
@@ -21,13 +36,9 @@ The objective was to practise DAX calculations, analyse sales performance, and b
 * Quantity
 * Unit_Price_INR
 
-## Tools and Technologies
+## DAX Measures
 
-* Microsoft Power BI Desktop
-* DAX (Data Analysis Expressions)
-* Microsoft Excel
-
-## DAX Measures Created
+The following measures were created:
 
 * Total Revenue
 * Total Quantity
@@ -37,52 +48,47 @@ The objective was to practise DAX calculations, analyse sales performance, and b
 * Total Profit
 * Profit Margin %
 
-**Note:** Total Cost was estimated as 70% of revenue for practice purposes. Profit and profit margin are based on this assumption and are not actual business financial results.
+**Calculation assumption:** Total Cost is estimated at 70% of revenue for practice purposes. Therefore, Total Profit and Profit Margin are illustrative calculations, not actual business financial results.
 
-## Dashboard Visualisations
+## Dashboard Features
 
-### 1. Revenue by Product Category
+### Revenue by Product Category
 
-Compared revenue across different product categories.
+Compares revenue across product categories.
 
-### 2. Monthly Revenue Trend
+### Monthly Revenue Trend
 
-Visualised how revenue changes over time.
+Shows how revenue changes over time.
 
-### 3. Revenue by Region
+### Revenue by Region
 
-Compared sales revenue across geographical regions.
+Compares revenue across geographical regions.
 
-### 4. Revenue Contribution by Sales Channel
+### Revenue Contribution by Sales Channel
 
-Compared revenue contributions from Online, Retail Store, and Distributor channels.
+Explores revenue distribution across Online, Retail Store, and Distributor channels.
 
-## Interactive Features
+### Interactive Filters
 
-* Year slicer to filter the dashboard by year.
-* Region slicer to analyse selected regions.
-* Interactive filtering across relevant visuals.
+Year and Region slicers allow users to explore the dashboard dynamically.
 
 ## Skills Demonstrated
 
-* Data analysis using Power BI
-* DAX measures
-* Sales performance analysis
+* DAX measure creation
+* Sales data analysis
 * Data visualisation
-* Interactive dashboard development
-* Basic business insights
+* Interactive dashboard design
+* Business-oriented reporting
 
 ## Project Files
 
-* `PowerBI_DAX_Sales_Analysis.pbix` — Power BI report
-* `PowerBI_DAX_Practice_5000_Rows.xlsx` — Excel dataset
-* `Dashboard_Screenshot.png` — Dashboard preview
+* Power BI report (`.pbix`)
+* Excel dataset (`.xlsx`)
+* Dashboard screenshot (`.png`)
 
 ## Learning Outcome
 
-This project helped me practise creating DAX measures, designing report visuals, and building an interactive dashboard to explore sales data.
+This project helped me apply DAX calculations and interactive visualisation techniques to a practical sales analysis scenario.
 
----
-
-**Created by:** Kiruthika Palanisamy
+**Author:** Kiruthika Palanisamy
 
