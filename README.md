@@ -8,7 +8,7 @@ This project uses a dataset containing 5,000 rows and demonstrates practical app
 
 ## Dashboard Preview
 
-![Power BI Sales Analysis Dashboard](Dashboard_Screenshot.png)
+![Power BI Sales Analysis Dashboard](Dashboard_Screenshot.png.png)
 
 ## Business Objectives
 
